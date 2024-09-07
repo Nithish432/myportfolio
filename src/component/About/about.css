@@ -8,7 +8,6 @@
   justify-content: left;
   flex-wrap: wrap;
   padding: 5%;
-  /* height: 90vh; */
 }
 
 .about-container {
@@ -24,7 +23,7 @@
   font-size: 45px;
   color: white;
   padding-bottom: 25px;
-  font-family: monospace;
+  letter-spacing: 2px;
 }
 
 
@@ -106,9 +105,6 @@
   .contacts,.resume{
     font-size: 15px;
   }
-  /* .home-contents{
-    height: 70vh;
-  } */
 }
 
 @media (max-width: 645px) {
@@ -135,12 +131,6 @@
     padding: 0px 12px 0px 12px;
   }
 
-}
-
-@media (max-width:550px){
-  /* .home-contents{
-    height: 70vh;
-  } */
 }
 
 @media (max-width: 430px){

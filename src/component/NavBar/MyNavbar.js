@@ -11,7 +11,7 @@ function MyNavbar() {
   return (
     <nav>
       <a href="#About" id="logo">
-        <span>Nithish Kumar K</span>
+        <span>Portfolio</span>
       </a>
       <ul id="navbar" className={clicked ? "menu" : "navbar"}>
         <a href="#About" className="icon">

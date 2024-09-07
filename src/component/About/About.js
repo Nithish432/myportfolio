@@ -18,10 +18,10 @@ export const About = () => {
           </p>
           <div className="media-links" data-aos="fade-up" data-aos-duration="3000">
             <a href="#Contact" className="contacts">Contact Me</a>
-            <a href="https://drive.google.com/file/d/1O9-0EF0UTBtRIsfULcmChdTx7zpayynj/view?usp=sharing" target="_blank" rel="noreferrer" className="resume">Resume</a>
+            <a href="https://drive.google.com/file/d/1_c-WDoeNVKSVV1UhFL_nIx--5VaC8mao/view?usp=sharing" target="_blank" rel="noreferrer" className="resume">Resume</a>
           </div>
         </div>
-        <div className="imgdiv" data-aos="zoom-in" data-aos-duration="3000">
+        <div className="imgdiv">
           <img className="my-pic" src={me} alt="Nithish's img" />
         </div>
       </div>
