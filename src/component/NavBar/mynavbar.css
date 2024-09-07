@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: hsl(0deg 38.89% 7.06%);
+  position: sticky;
+  top: 0;
+  border-bottom: 0.3px solid hsl(0deg 43.17% 35.88%);
+  z-index: 9999;
+}
+
+#logo {
+  font-size: 24px;
+  margin: 0;
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  font-weight: 800;
+  font-family: "Dancing Script","cursive";
+}
+
+#navbar{
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+}
+
+.icon {
+  text-decoration: none;
+  list-style: none;
+  margin-right: 1rem;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  transition:all 0.3s ease-in-out;
+}
+
+.icon:hover {
+  background-color: hsl(0deg 43.17% 35.88%);
+  padding: 5px;
+  border-radius: 4px;
+  transition: 0.8s ease;
+}
+
+#mobile i {
+  color: hsl(0deg 43.17% 35.88%);
+  font-size: 24px;
+}
+
+#mobile {
+  display: none;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+@media (max-width: 650px) {
+    #navbar{
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      top: 58px;
+      left: 0;
+      background: hsl(0deg 38.89% 7.06%);
+      text-align: center;
+      padding-top: 20px;
+      border-bottom: 0.3px solid hsl(0deg 43.17% 35.88%);
+    }
+
+    #navbar.menu {
+      display: flex;
+    }
+
+    li{
+      margin: 15px 0;
+    }
+
+    #mobile {
+      display: block;
+    }
+
+  }
+ 
+@media (max-width: 250px){
+  #logo{
+    font-size: 16px;
+  }
+}

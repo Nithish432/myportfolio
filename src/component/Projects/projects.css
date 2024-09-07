@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.total-projects{
+    margin: 2rem 0 2rem 0;
+    padding-bottom: 4rem;
+    border-bottom: 1px solid hsl(0deg 43.17% 35.88%);
+}
+
+.title-projects{
+    padding: 1.5rem;
+    font-size: 1.9rem;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+
+.projects-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.63rem;
+    width: 80%;
+    margin: auto;
+}
+
+.cards{
+    width: 20.4rem;
+    height: 28.15rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    background: hsl(0deg 43.17% 35.88%);
+}
+
+.card-img{
+    height: 15rem;
+    width: 20.4rem;   
+    object-fit: cover;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+
+.card-body-content{
+    padding: 1.4rem 1.4rem 0 1.4rem;
+}
+
+.card-text{
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.git-front{
+    text-decoration: none;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.git-frontandback-link{
+    padding: 1.7rem 0 1.5rem 0;
+}
+
+.liveApp{
+    text-decoration: none;
+    color: white;
+}
+
+.git-frontandback-link,.live{
+    text-align: center;
+}
+
+.liveApp{
+    border: 1px solid #76bb1c;
+    padding: 0.5rem;
+    background-color: #76bb1c;
+    border-radius: 0.25rem;
+}
+
+@media (max-width: 650px){
+    .title-projects{
+        font-size: 1.55rem;
+    }
+    .card-img{
+        height: 13rem;
+        width: 26.4rem;
+    }
+    .card-text{
+        font-size: 0.8rem;
+    }
+    .cards{
+        width: 17.4rem;
+        height: 24.5rem;
+    }
+}
+
+@media (max-width: 420px){
+    .projects-section{
+        width: 90%;
+    }
+}
+
+@media (max-width:360px){
+    .projects-section{
+        width: 90%;
+    }
+    .cards{
+        width: 17.5rem;
+        height: 24rem;
+    }
+    .liveApp,.git-front{
+        font-size: 12px;
+    }
+    .git-frontandback-link{
+        padding: 18px;
+    }
+}
+
+@media (max-width:250px){
+    .cards{
+        height: 19rem;
+    }
+    .card-img{
+        height: 9rem;
+        width: 23.4rem;
+    }
+    .card-text{
+        font-size: 0.6rem;
+    }
+}

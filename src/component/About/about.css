@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+}
+
+.home-contents {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-wrap: wrap;
+  padding: 5%;
+}
+
+.about-container {
+    
+  width: 50%;
+  line-height: 2.2rem;
+  padding: 1rem 1rem 1rem 1rem;
+  text-align: left
+  
+}
+
+.my-name{
+  font-size: 45px;
+  color: white;
+  font-family: cursive;
+  padding-bottom: 25px;
+}
+
+
+.designation{
+  font-size: 30px;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  padding-bottom: 15px;
+}
+
+.deve-color{
+  color: red;
+}
+
+.quotes{
+  font-size: 25px;
+  color: darkgray;
+  padding-bottom: 15px;
+}
+
+.media-links{
+  display: flex;
+  gap: 24px;
+  justify-content: left;
+  align-items: center;
+}
+
+.contacts{
+  list-style: none;
+  text-decoration: none;
+  padding: 5px 12px 5px 12px;
+  border: 1px solid;
+  border-radius: 16px;
+  color: hsl(340.88deg 84.96% 73.92%);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.resume{
+  text-decoration: none;
+  padding: 5px 12px 5px 12px;
+  border: 1px solid;
+  border-radius: 16px;
+  background-color: hsl(340.88deg 84.96% 73.92%);
+  color: hsl(0deg 38.89% 7.06%);
+  font-size: 20px;
+  font-weight: 700
+}
+
+.imgdiv {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-pic {
+  background: hsl(0deg 38.89% 7.06%);
+  width: 45%;
+  height: 90%;
+  object-fit: cover;
+  object-position: top;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+
+@media (max-width: 861px) {
+  .about-container {
+    padding: none;
+    border-radius: none;
+  }
+  .my-name{
+    font-size: 35px;
+  }
+  .designation{
+    font-size: 25px;
+  }
+  .contacts,.resume{
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 645px) {
+  .about-container {
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+  }
+  .designation{
+    margin: -7px 0 0 0;
+  }
+  .quotes{
+    font-size: 20px;
+  }
+  .imgdiv {
+    width: 100%;
+  }
+  .contacts,.resume{
+    font-size: 12px;
+    padding: 0px 12px 0px 12px;
+  }
+
+}
+
+@media (max-width: 430px){
+    .about-container{
+        font-size: 2%;
+        padding: 0;
+    }
+    .my-pic{
+      width: 45%;
+      height: 75%;
+    }
+    .my-name{
+      font-size: 23px;
+      padding-bottom: 15px;
+    }
+    .designation{
+      font-size: 15px;
+      margin: -15px 0 -12px 0;
+    }
+    .quotes{
+      font-size: 15px;
+      line-height: 1.5rem;
+      margin-top: 0;
+    }
+
+    .media-links{
+      margin: -4px 0 0 0;
+      gap: 12px;
+    }
+    .my-pic{
+      margin-top: 8px;
+    }
+}
+
+@media(max-width:375px){
+  .home-contents {
+    padding: 5%;
+  }
+  .contacts,.resume{
+    font-size: 10px;
+    padding: 0px 12px 0px 12px;
+  }
+  .about-container, .imgdiv {
+    padding: 5px;
+    margin: 0;
+    width: 100vw;
+}
+}
