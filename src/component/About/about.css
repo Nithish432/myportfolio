@@ -8,6 +8,7 @@
   justify-content: left;
   flex-wrap: wrap;
   padding: 5%;
+  /* height: 90vh; */
 }
 
 .about-container {
@@ -22,8 +23,8 @@
 .my-name{
   font-size: 45px;
   color: white;
-  font-family: cursive;
   padding-bottom: 25px;
+  font-family: monospace;
 }
 
 
@@ -105,9 +106,16 @@
   .contacts,.resume{
     font-size: 15px;
   }
+  /* .home-contents{
+    height: 70vh;
+  } */
 }
 
 @media (max-width: 645px) {
+  .home-contents{
+    height: 75vh;
+    padding: 10% 5% 15% 5%;
+  }
   .about-container {
     width: 100%;
     padding: 10px;
@@ -129,31 +137,45 @@
 
 }
 
+@media (max-width:550px){
+  /* .home-contents{
+    height: 70vh;
+  } */
+}
+
 @media (max-width: 430px){
+  .home-contents{
+    height: 75vh;
+    padding: 10% 5% 6% 5%;
+  }
     .about-container{
         font-size: 2%;
         padding: 0;
     }
     .my-pic{
-      width: 45%;
+      width: 55%;
       height: 75%;
     }
     .my-name{
-      font-size: 23px;
-      padding-bottom: 15px;
+      font-size: 27px;
+      padding-bottom: 20px;
     }
     .designation{
-      font-size: 15px;
-      margin: -15px 0 -12px 0;
+      font-size: 23px;
+      margin: -15px 0 -8px 0;
+    }
+    .contacts,.resume{
+      font-size: 14px;
+      padding: 0px 12px 0px 15px;
     }
     .quotes{
-      font-size: 15px;
+      font-size: 20px;
       line-height: 1.5rem;
       margin-top: 0;
     }
 
     .media-links{
-      margin: -4px 0 0 0;
+      margin: 5px 0 0 0;
       gap: 12px;
     }
     .my-pic{
@@ -166,7 +188,7 @@
     padding: 5%;
   }
   .contacts,.resume{
-    font-size: 10px;
+    font-size: 12px;
     padding: 0px 12px 0px 12px;
   }
   .about-container, .imgdiv {

@@ -10,7 +10,7 @@ function MyNavbar() {
 
   return (
     <nav>
-      <a href="#About" id="logo" data-aos="fade-right" data-aos-duration="3000">
+      <a href="#About" id="logo">
         <span>Nithish Kumar K</span>
       </a>
       <ul id="navbar" className={clicked ? "menu" : "navbar"}>
