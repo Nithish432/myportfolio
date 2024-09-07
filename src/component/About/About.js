@@ -13,7 +13,7 @@ export const About = () => {
             <span>|</span> Web <span className="deve-color">Developer</span>
           </p>
           <p className="quotes"data-aos="fade-right" data-aos-duration="3000">
-            “I thrive in diverse environments, continually learning and adapting
+            “I thrive in diverse environments, continuously learning and adapting
             to new challenges with a growth mindset."
           </p>
           <div className="media-links" data-aos="fade-up" data-aos-duration="3000">
