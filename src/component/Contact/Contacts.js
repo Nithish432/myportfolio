@@ -9,7 +9,7 @@ import emailjs from 'emailjs-com';
 const formValidationSchema = yup.object({
   name: yup.string().required("why not fill this name?"),
   email: yup.string().required("why not fill this email?").email('Invalid email format'),
-  message: yup.string().required("why not fill this message?").max(60, "Too much message"),
+  message: yup.string().required("why not fill this message?").max(1000, "Too much message"),
 })
 
 function Contacts() {
