@@ -59,8 +59,16 @@
     color: #007bff;
 }
 
+.git-back{
+    text-decoration: none;
+    font-weight: bold;
+    color: #007bff;
+}
+
 .git-frontandback-link{
     padding: 1.7rem 0 1.5rem 0;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .liveApp{
@@ -114,7 +122,7 @@
         width: 17.5rem;
         height: 24rem;
     }
-    .liveApp,.git-front{
+    .liveApp,.git-front,.git-back{
         font-size: 12px;
     }
     .git-frontandback-link{
