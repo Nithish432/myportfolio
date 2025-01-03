@@ -30,12 +30,12 @@ function Projects() {
               >
                 React
               </a>
-              <a
+              {/* <a
                     className="git-back"
                     href="https://github.com/Nithish432/mongo-node"
                     target="_blank"
                     rel="noreferrer"
-                  >Node</a>
+                  >Node</a> */}
             </p>
             <p className="live">
               <a

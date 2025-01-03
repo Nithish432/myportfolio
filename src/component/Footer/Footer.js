@@ -16,13 +16,13 @@ function Footer() {
         </div>
         <div className='social-media'>
         <h2 className='icon-text'>Get in touch</h2>
-        <a href="https://github.com/Nithish432">
+        <a href="https://github.com/Nithish432" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faGithub} className="links github"/>
         </a>
-        <a href="https://www.linkedin.com/in/nithish-kumar-k-015719226/">
+        <a href="https://www.linkedin.com/in/nithish-kumar-k-015719226/" target="_blank" rel="noreferrer">
              <FontAwesomeIcon icon={faLinkedin} className="links linkedin" />
         </a>
-        <a href="https://www.instagram.com/thenameisnithish/">
+        <a href="https://www.instagram.com/thenameisnithish/" target="_blank" rel="noreferrer">
              <FontAwesomeIcon icon={faInstagram} className="links instagram" />
         </a>
         </div>
