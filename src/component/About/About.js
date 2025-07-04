@@ -18,7 +18,7 @@ export const About = () => {
           </p>
           <div className="media-links" data-aos="fade-up" data-aos-duration="3000">
             <a href="#Contact" className="contacts">Contact Me</a>
-            <a href="https://drive.google.com/file/d/1CGnuRNX-FLkD83MK2E_PTYAZhm6RNjIg/view?usp=sharing" target="_blank" rel="noreferrer" className="resume">Resume</a>
+            <a href="https://drive.google.com/file/d/1Sd8HS_oOsZVNs6_s8RF7TWfO2WZnskax/view?usp=drive_link" target="_blank" rel="noreferrer" className="resume">Resume</a>
           </div>
         </div>
         <div className="imgdiv">
